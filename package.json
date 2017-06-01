@@ -1,0 +1,17 @@
+{
+  "name": "fd-training",
+  "version": "1.0.0",
+  "description": "Dit is een oefening voor het examen",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Hoi\" && exit 1"
+  },
+  "author": "Arjan de Ruijter",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0"
+  }
+}

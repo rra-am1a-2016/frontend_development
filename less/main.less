@@ -1,0 +1,44 @@
+@border-color: rgb(230,230,230);
+body {
+   background-color: @border-color;
+}
+
+.row {
+   border: 0px solid darken(@border-color, 10%);
+}
+
+[class^="col-md-"] {
+   border: 0px solid darken(@border-color, 20%);
+   padding: 0em;
+}
+
+.item img {
+   margin: 0px auto;
+}
+
+[id^="section"] {
+   height: 600px;
+   border: 1px solid darken(@border-color, 20%);
+}
+
+#home, #about, #contact, #section1 {
+   min-height: 1024px;
+}
+
+#about {
+   background-color: rgb(80, 80, 200);
+}
+
+#contact {
+   background-color: rgb(120, 120, 30);
+}
+
+#section1 {
+   background-color: burlywood;
+}
+
+.footer {
+   position: fixed;
+   bottom: 0;
+}
+
