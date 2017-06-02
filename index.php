@@ -78,26 +78,52 @@
           <?php include("./carousel.html"); ?>
         </div> 
       </div>
+      <!--  xs (for phones)
+            sm (for tablets)
+            md (for desktops)
+            lg (for larger desktops)-->
+     
 
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-12" >
           <?php include("./panel_left.html"); ?>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <?php include("./panel_right.html"); ?>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+          <?php include("./panel_left.html"); ?>
+        </div>
+        <div class="col-xs-6 col-sm-12 col-md-12 col-lg-4">
           <?php include("./panel_right.html"); ?>
         </div>         
       </div>
 
       <div class="row">
-        <div class="col-md-4">
-          <?php include("./panel_low_left.html"); ?>
+        <div class="col-xs-3 col-sm-3" >
+          <img class="img-responsive" src="./images/dynamixion_small.jpg" alt="dynamixion">
         </div>
-        <div class="col-md-4">
-          <?php include("./panel_low_middle.html"); ?>
+        <div class="col-xs-3 col-sm-3">
+          <img class="img-responsive" src="./images/dynamixion_small.jpg" alt="dynamixion">
         </div>
-        <div class="col-md-4">
-          <?php include("./panel_low_right.html"); ?>
+        <div class="col-xs-3 col-sm-3">
+          <img class="img-responsive" src="./images/dynamixion_small.jpg" alt="dynamixion">
+        </div>
+        <div class="col-xs-3 col-sm-3">
+          <img class="img-responsive" src="./images/dynamixion_small.jpg" alt="dynamixion">
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <img class="img-responsive" src="./images/dynamixion_small.jpg" alt="dynamixion">
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <img class="img-responsive" src="./images/dynamixion_small.jpg" alt="dynamixion">
         </div> 
+        <div class="col-xs-12 col-sm-3">
+          <img class="img-responsive" src="./images/dynamixion_small.jpg" alt="dynamixion">
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <img class="img-responsive" src="./images/dynamixion_small.jpg" alt="dynamixion">
+        </div>  
       </div>
 
     </div> <!--home-->

@@ -21,6 +21,13 @@ body {
 #section1 {
   min-height: 100vh;
 }
+#home img,
+#about img,
+#contact img,
+#section1 img {
+  margin-left: auto;
+  margin-right: auto;
+}
 #about {
   background-color: #5050c8;
 }
