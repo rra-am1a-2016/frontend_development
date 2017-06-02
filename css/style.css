@@ -19,7 +19,7 @@ body {
 #about,
 #contact,
 #section1 {
-  min-height: 1024px;
+  min-height: 100vh;
 }
 #about {
   background-color: #5050c8;

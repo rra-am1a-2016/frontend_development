@@ -74,17 +74,7 @@
     <div class="container" id="home">
 
       <div class="row">
-        <div class="col-md-12">
-          <div class="jumbotron">
-            <h1>Friday is the best day of the week</h1>
-            <p></p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-          </div>
-        </div> 
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
+        <div class="col-xs-12">
           <?php include("./carousel.html"); ?>
         </div> 
       </div>
@@ -120,6 +110,8 @@
         </div>
       </div>
     </div>
+
+
     <div id="contact" class="container">
       <div class="row">
         <div col-xs-12>
@@ -127,6 +119,8 @@
         </div>
       </div>
     </div>  
+
+
     <div id="section1" class="container">
       <div class="row">
         <div col-xs-12>
